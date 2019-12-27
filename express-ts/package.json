@@ -1,0 +1,26 @@
+{
+  "name": "robotserver",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsc && nodemon ./dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.2",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "@types/cookie-parser": "^1.4.2",
+    "@types/express": "^4.17.1",
+    "@types/http-errors": "^1.6.2",
+    "@types/morgan": "^1.7.37",
+    "axios": "^0.19.0",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "morgan": "^1.9.1"
+  }
+}

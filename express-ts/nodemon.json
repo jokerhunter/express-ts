@@ -1,0 +1,21 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules",
+        "dist",
+        ".vscode"
+    ],
+    "verbose": false,
+    "execMap": {
+        "js": "tsc && node"
+    },
+    "watch": [
+        "./src"
+    ],
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "ts",
+    "delay": "500"
+}
